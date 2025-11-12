@@ -1,0 +1,132 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: rgb(44, 44, 44);
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+.nav {
+  background: #222;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav a:hover {
+  color: #8aff86;
+}
+.section {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  margin-top: 2rem;
+}
+.profile-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  margin: 2rem 0;
+  flex-wrap: wrap; /* ensures responsiveness on small screens */
+}
+.profile-pic {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid  #8aff86;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.profile-pic:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.25);
+}
+/* --- Experience List --- */
+.experience {
+  text-align: left;
+}
+
+.experience h2 {
+  margin-bottom: 1rem;
+  color: #333;
+  font-size: 1.5rem;
+}
+
+.experience ul {
+  list-style: none;
+  padding: 0;
+}
+
+.experience li {
+  background: #f0f8ff;
+  border-left: 4px solid #8aff86;
+  padding: 0.5rem 1rem;
+  margin-bottom: 0.5rem;
+  border-radius: 5px;
+  font-weight: 500;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.experience li:hover {
+  background: hsl(118, 100%, 87%);
+  transform: translateX(4px);
+}
+
+.cv-buttons button {
+  background: linear-gradient(90deg, #8aff86, #4fb14c);
+  border: none;
+  padding: 10px 20px;
+  margin: 0.5rem;
+  border-radius: 5px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.cv-buttons button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(97, 218, 251, 0.3);
+}
+.section {
+  animation: fadeInUp 1s ease-in;
+}
+
+.nav {
+  animation: fadeInDown 1s ease-in;
+}
+img{
+  width: 50%;
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
