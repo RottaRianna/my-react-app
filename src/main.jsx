@@ -578,7 +578,7 @@ import SlideWrapper from "./SlideWrapper";
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
-    <BrowserRouter basename="/~react-app">;
+    <BrowserRouter basename="/">;
 
       <button className="menu-toggle" onClick={() => setMenuOpen(!menuOpen)}>
         ☰
