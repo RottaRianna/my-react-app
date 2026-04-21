@@ -15,7 +15,7 @@ import kgImage3 from './photos/kpIMG3.png';
 import portfolKuva1 from './photos/portfolKuva1.png';
 import portfolKuva2 from './photos/portfolKuva2.png';
 import portfolKuva3 from './photos/portfolKuva3.png';
-import myVideo from './photos/Video.mp4'
+import myVideo from './photos/portfolKuva3.png'
 
 
 import React, { useState, useEffect } from "react";
