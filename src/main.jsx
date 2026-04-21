@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 
 import './style.css';
 import portfolioImage from './photos/portfolio.png';
-import portfolioImage2 from './photos/portfol2.png';
+import portfolioImage2 from './photos/Portfol2.png';
 import portfolioImage3 from './photos/portfol3.png';
 import apiImage1 from './photos/APIkuva1.png';
 import apiImage2 from './photos/APIkuva2.png';
@@ -13,7 +13,7 @@ import kgImage from './photos/kgIMG.png';
 import kgImage2 from './photos/kgIMG2.png';
 import kgImage3 from './photos/kpIMG3.png';
 import portfolKuva1 from './photos/portfolKuva1.png';
-import portfolKuva2 from '.src/photos/portfolKuva2.png';
+import portfolKuva2 from './photos/portfolKuva2.png';
 import portfolKuva3 from './photos/portfolKuva3.png';
 import myVideo from './photos/Video.mp4'
 
